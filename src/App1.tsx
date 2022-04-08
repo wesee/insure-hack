@@ -48,6 +48,9 @@ const App: React.FC = () => (
           <Route exact path="/tab2">
             <Tab2 />
           </Route>
+          <Route path="/tab3">
+            <Tab3 />
+          </Route>
           <Route path="/tab4">
             <History />
           </Route>
@@ -58,11 +61,15 @@ const App: React.FC = () => (
         <IonTabBar slot="bottom">
           <IonTabButton tab="tab1" href="/tab1">
             <IonIcon icon={options} />
-            <IonLabel>Customised Product</IonLabel>
+            <IonLabel>Options</IonLabel>
           </IonTabButton>
           <IonTabButton tab="tab2" href="/tab2">
             <IonIcon icon={warning} />
-            <IonLabel>Risk Reasoning</IonLabel>
+            <IonLabel>Risk</IonLabel>
+          </IonTabButton>
+          <IonTabButton tab="tab3" href="/tab3">
+            <IonIcon icon={umbrella} />
+            <IonLabel>Onboard</IonLabel>
           </IonTabButton>
           <IonTabButton tab="tab4" href="/tab4">
             <IonIcon icon={list} />
