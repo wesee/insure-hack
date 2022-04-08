@@ -29,7 +29,7 @@ const Tab1: React.FC = () => {
 			<IonCardContent>
 
 				<IonRow>
-					<IonCol size="4">
+					<IonCol size="4" vertical-align="middle">
 						<img src="/assets/alan.jpg" alt="avatar"/>
 					</IonCol>
 
@@ -37,7 +37,7 @@ const Tab1: React.FC = () => {
 						<IonRow >
 							<IonCol size="12">
 								<IonText color="dark" >
-									<p>Alan Montgomery</p>
+									<p>Eddie Chin</p>
 								</IonText>
 								<IonText color="medium">
 									<p>Bridge Builder</p>
